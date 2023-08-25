@@ -1,0 +1,16 @@
+Some([Message { message_id: Some("c364f0da-34a7-4803-8c01-4428b829e999"), receipt_handle: Some("AQEBh4bPvbNDM4O6n04yiKJb2fjzPrJZuzPNHZ0xIEJ5lIB80oCnWw86gb1FCMR3RMJrAzsiILcxgGpKB6hAhrxeD39jSGNp3OFpiOj02LB8kxLSV0Dw51bU955BldWBbV89JJYlD/7oxWNYrEamPscDNPmwG3cwWerjhcvdqftkxrUxf2GOm2txGIW9UHLaT1PuocXEIx2iekLjKauMC0j1XwBSkfnNY0MoCJuGSBgB7G7sWkYQf4lXCk6/VzynKZ3lZM9lmX1pv00/KNOgTP36yc1JyKTwjWHwwSC+2utQ9Z0rafCx+MHZYr2cZfg9hThOOD+9577noL4R+N4Ts9JXmuZxdo6kTTfetSy8jhiiSbCKD5+xGvRMQrG/OPALDrYiyMKI7RIYos0d1m+fqV6iBQ=="), md5_of_body: Some("f14cc83cd4cee7ac023775032e17b88e"), 
+body: Some("{\n  \"Type\" : \"Notification\",\n  \"MessageId\" : \"dadf163f-a535-5e4a-92c7-4b61a71bff00\",\n  \"TopicArn\" : \"arn:aws:sns:us-east-2:104833417893:MyTopic\",\n  \"Subject\" : \"Amazon S3 Notification\",\n  \"Message\" : 
+\"{\\\"Records\\\":[
+    {\\\"eventVersion\\\":\\\"2.1\\\",
+    \\\"eventSource\\\":\\\"aws:s3\\\",
+    \\\"awsRegion\\\":\\\"us-east-2\\\",
+    \\\"eventTime\\\":\\\"2023-08-22T00:23:09.825Z\\\",
+    \\\"eventName\\\":\\\"ObjectCreated:Put\\\"
+    \\\"userIdentity\\\":{\\\"principalId\\\":\\\"AWS:xxxxxxxx\\\"},
+    \\\"requestParameters\\\":{\\\"sourceIPAddress\\\":\\\"xxx.xxx.xxx.xxx\\\"},
+    \\\"responseElements\\\":{\\\"x-amz-request-id\\\":\\\"0PAV4TGAM94CN1R1\\\",\\\"x-amz-id-2\\\":\\\"9r0neXobUbUFC5qjiy5JB3alGoh9rZVZcKRW+iVArL2mn4OBsC1rOqEYxELbUd02v9cNcamecwesrU6bICnsiT6zXWvwPPKlBOg1tQNgcw4=\\\"},
+    \\\"s3\\\":{\\\"s3SchemaVersion\\\":\\\"1.0\\\",\\\"configurationId\\\":\\\"PutBucket\\\",
+    \\\"bucket\\\":{\\\"name\\\":\\\"teste-s3-queue-rust\\\",\\\"ownerIdentity\\\":{\\\"principalId\\\":\\\"xxxxxxxxxx\\\"},\\\"arn\\\":\\\"arn:aws:s3:::teste-s3-queue-rust\\\"},
+    \\\"object\\\":{\\\"key\\\":\\\"WhatsApp+Image+2023-08-15+at+23.06.29.jpeg\\\",\\\"size\\\":125630,\\\"eTag\\\":\\\"4dea925d29c27174110b02caaff5fe04\\\",\\\"sequencer\\\":\\\"0064E3FFEDBFA34385\\\"}}}]}\",
+    \n  \"Timestamp\" : \"2023-08-22T00:23:10.799Z\",\n  \"SignatureVersion\" : \"1\",\n  \"Signature\" : \"WK23bXiKRLmKfnlnIHwo+xaReRMrYUObVhUMxC9O1Aui671Umdra4JealGDgJqRu4qb5Pp7rlQ7GK1lL6sNOtaDmIdkNcLxgbM9ROux26uMT8+l+rMtef2ZnsJU1xEOv5iXdvJoiVOp3tStLRGtGWcGW7ktUH198Y4Gj7SqZRmY5x/1/p99IRAK9K/VsD6q3NgQzYNIJamsnDBRNejFL/fEtu6ZOspDt1nWE76LKW/x08U2qt5vuYbRXid2QJJM7cl586tEt3LdVbKpemR7V9ve/IjVpFuEnllJsX6f9RCxAyz14STEmAjX30LJPWboGntN4Rr0Cc1ZrUj1m2Z9c5g==\",
+    \n  \"SigningCertURL\" : \"https://sns.us-east-2.amazonaws.com/SimpleNotificationService-01d088a6f77103d0fe307c0069e40ed6.pem\",\n  \"UnsubscribeURL\" : \"https://sns.us-east-2.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-2:104833417893:MyTopic:e4b033e1-a325-49cb-a91f-7d2f6be6ea70\"\n}"), attributes: None, md5_of_message_attributes: None, message_attributes: None }])
